@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent" : "LaunchIntent"
+    },
+    {
+      "intent" : "PrizeIntent",
+      "slots" : [
+        {
+          "name" : "prize",
+          "type" : "LIST_OF_PRIZES"
+        }
+      ]
+    },
+    {
+      "intent" : "PrizeOnlyIntent",
+      "slots" : [
+        {
+          "name" : "prize",
+          "type" : "LIST_OF_PRIZES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    }
+  ]
+}

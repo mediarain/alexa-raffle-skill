@@ -1,0 +1,20 @@
+LaunchIntent roll
+LaunchIntent roll the dice
+LaunchIntent begin
+LaunchIntent start
+LaunchIntent give me a prize
+LaunchIntent get me a prize
+LaunchIntent prize
+LaunchIntent a prize
+LaunchIntent give me a winner
+
+PrizeIntent i want a {prize}
+PrizeIntent i want an {prize}
+PrizeIntent get me a {prize}
+PrizeIntent get me an {prize}
+PrizeIntent give me a {prize}
+PrizeIntent give me an {prize}
+PrizeIntent give me a winner for a {prize}
+PrizeIntent give me a winner for an {prize}
+
+PrizeOnlyIntent {prize}
